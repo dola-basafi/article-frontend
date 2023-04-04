@@ -1,0 +1,37 @@
+<div class="container" id="category">
+  <!-- show category -->
+  <div id="showcategory">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Category Title</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody id="category-data">
+                     
+      </tbody>
+    </table>
+    <!-- edit category -->
+    <div id="editcategory">
+      <form>
+        <div class="mb-3">
+          <label for="categoryname" class="form-label">Category name</label>
+          <input name="categoryname" type="email" class="form-control" id="categoryname" aria-describedby="emailHelp">
+        </div>        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- create category -->
+    <div id="createcategory">
+      <form>
+        <div class="mb-3">
+          <label for="categoryname" class="form-label">Category name</label>
+          <input name="categoryname" type="email" class="form-control" id="categoryname" aria-describedby="emailHelp">
+        </div>        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
