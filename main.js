@@ -16,7 +16,11 @@ $(document).ready(function () {
 }, 100);
  }
 });
-const baseUrl = "http://localhost:8000/api";
+//local
+// const baseUrl = "http://localhost:8000/api"; 
+//deploy
+const baseUrl = "https://article-production-bdcd.up.railway.app/api"; 
+
 
 //logout
 function proccesslogout() {
