@@ -19,13 +19,8 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                      <button class="btn btn-primary">Home</button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
+                <ul class="navbar-nav ms-auto">                 
+                  <li class="nav-item"  id="log">
                     <a class="nav-link" href="#">
                       <button
                         type="button"
@@ -37,7 +32,7 @@
                       </button>
                     </a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item" id="reg">
                     <a class="nav-link" href="#">
                       <button
                         type="button"
@@ -47,12 +42,18 @@
                       >
                         Register
                       </button>
-                    </a>
-                    <td>
-                      <button class="btn btn-primary">detail</button>
-                      <button class="btn btn-warning">update</button>
-                      <button class="btn btn-danger">delete</button>
-                    </td>
+                    </a>                    
+                  </li>
+                  <li class="nav-item " id="log-out">
+                    <a class="nav-link" href="#">
+                      <button
+                      onclick="proccesslogout()"
+                        type="button"
+                        class="btn btn-danger"
+                      >
+                        Log Out
+                      </button>
+                    </a>                    
                   </li>
                 </ul>
               </div>
